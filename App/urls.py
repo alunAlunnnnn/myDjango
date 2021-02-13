@@ -7,4 +7,6 @@ urlpatterns = [
 
     # 添加template的路由
     url(r'^return_html/', views.return_html),
+
+    url(r'^template_str', views.template_str),
 ]
