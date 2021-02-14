@@ -28,4 +28,7 @@ urlpatterns = [
 
     # 引用 viewreturn 中的子路由
     url(r'^viewreturn/', include('viewreturn.urls')),
+
+    # 引用 app - two 中的子路由
+    url(r'^two/', include('two.urls')),
 ]
